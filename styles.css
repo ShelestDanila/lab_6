@@ -1,0 +1,97 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color: #f8f9fa;
+}
+
+.section-header h1 {
+    color: #ffffff; 
+}
+
+h2, h3 {
+    color: #ff0000; 
+}
+
+.section-header {
+    background-color: #0096e6;
+    color: white;
+    padding: 20px 0;
+}
+
+.btn-primary {
+    background-color: #ab5d5d;
+    border-color: #ffffff;
+}
+
+.btn-primary:hover {
+    background-color: #ff0000;
+    border-color: #ff0000;
+}
+
+.form-control:focus {
+    border-color: #ff0000;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.feature-box {
+    padding: 15px;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.feature-box h3 {
+    margin-top: 0;
+}
+
+.container {
+    padding: 15px;
+}
+
+p {
+    color: rgb(255, 0, 0);
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .feature-box {
+        margin-bottom: 15px;
+    }
+}
+
+.carousel {
+    margin-top: 20px;
+}
+
+.carousel-item {
+    text-align: center;
+}
+
+.carousel-item img {
+    margin: 0 auto; 
+    max-height: 400px; 
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5); 
+    border-radius: 10px; 
+    padding: 10px; 
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #ff0000; 
+    border-radius: 50%; 
+    padding: 10px; 
+}
+
+@media (max-width: 768px) {
+    .carousel-control-prev, .carousel-control-next {
+        display: none;
+    }
+}
